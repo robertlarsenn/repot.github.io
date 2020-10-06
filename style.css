@@ -1,0 +1,183 @@
+ 
+ body {
+
+		 font-family: Garamond;
+		 font-size: 24px;
+}
+.top {
+    background-color: white;
+	display: block;
+
+	
+}
+
+.container h1 {
+
+	color: #4169E1;
+	display: block;
+	text-align: center;
+}
+
+.containerSpecial {
+
+	text-align: center;
+	background-color: #87CEFA;
+	visibility:hidden;
+
+}
+
+.container {
+
+	text-align: center;
+	background-color: #87CEFA;
+
+}
+
+legend {
+		color: blue;
+		font-size: 34px;
+}
+
+input {
+ text-align: left;	
+}
+
+label {
+		color: black;
+		font-size: 24px;
+}
+fieldset {
+ text-align: left;
+background-color: #87CEFA;
+color: white; 
+}
+.nav {
+    background-color:#87CEFA ;
+	display: block;
+
+
+}
+.body {
+   background-color:#F0F8FF	;
+
+   display: block;
+
+}
+
+.footer {
+
+  background-color:#B0C4DE 	;
+  display: block;
+
+}
+.image-wrapper-logo {
+
+	background-color:inherit;
+	display: inline-block;
+	
+	
+	
+	
+}
+img {
+	max-height: 100px;
+	max-width: 500px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.description-wrapper,.description-wrapper p  {
+	display: block;
+	background-color:#F0F8FF;
+	width:  inherit;
+	max-width:  inherit;
+	text-align: center;
+}
+
+.image-wrapper-banner {
+
+	background-color:inherit;
+	display: inline-block;
+	height: inherit;
+
+	
+	
+}
+
+.image-wrapper-other {
+	background-color:inherit;
+	display: inline-block;
+   
+
+}
+
+.image-wrapper-other  a:hover {
+		color: blue;
+		text-decoration: underline;
+
+}
+
+
+.button-wrapper {
+		display: inline-block;
+
+		
+}
+.button-wrapperFixed {
+		display: inline-block;
+	    position: fixed; 
+		bottom: 0;
+		
+}
+
+
+.empty-space-5 {
+		display: inline-block;
+		width: 5%;
+	
+	
+		
+}
+.empty-space-45 {
+		display: inline-block;
+		width: 45%;
+	
+	
+		
+}
+.empty-space-40 {
+		display: inline-block;
+		
+		width: 40%;
+	
+	
+		
+}
+.buttonHeader {
+		background-color: #B0C4DE;
+		border-color: inherit;
+		border-radius: 4px;
+		font-size: 28px;
+	    font-family: Garamond;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 40px;
+		
+		
+}
+
+.buttonHeader-active {
+		background-color: white;
+		border-color: inherit;
+		border-radius: 4px;
+		font-size: 28px;
+	    font-family: Garamond;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 40px;
+		
+		
+}

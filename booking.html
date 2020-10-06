@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<head>
+ <script type="text/javascript" src="scriptBooking.js" > </script>
+<link rel="stylesheet" href="./style.css" />  
+</head>
+
+<body>
+ 
+<div class="top">
+
+      <div class = "image-wrapper-logo" >
+               <a href="./home.html"> <img src="./logo.gif" /> </a>
+	  </div>
+	  
+	  <div class = "image-wrapper-banner" >
+           <img src="./banner.gif" />
+	  </div>
+	  
+
+</div>
+  
+<div class ="nav">
+<div class="empty-space-45"> </div>
+	<div class="button-wrapper ">
+       <a href="./home.html"> <button class= "buttonHeader " id="buttonHeader"> Home </button> </a>
+    </div>
+
+	<div class="button-wrapper ">
+     <a href="./info.html">  <button class= "buttonHeader "> Info  </button> </a>
+    </div>
+	<div class="button-wrapper ">
+     <a href="./booking.html">  <button class= "buttonHeader-active"> Booking  </button> </a>
+    </div>
+</div>
+
+<div class="body">
+
+<div class = "container">
+<form action="./doSomething.php" type="get">
+  <fieldset>
+	
+    <legend>Booking:</legend>
+	<table>
+		<tr><td>	
+		 <label for="fornavn">Firstname:</label> </td>
+	<td><input id="fornavn" name="fornavn" type="text" > </td><td>
+			<td> <label for="etternavn">Surrname:</label> </td><td>
+			 	
+	<input id="etternavn" name="etternavn" type="text" >	 </td>
+	</tr>
+		<tr>
+	<td>
+ <label for="stylists">Choose a stylist:</label> </td>
+ <td>
+  <select id="stylists" name="stylists">
+  <option value="0">Jens Eriksen </option>
+  <option value="1">Per Olavsen</option>
+  <option value="2">Steverd Einar </option>
+  <option value="3">Stevin Said </option>
+</select>
+</td>
+</tr>
+
+<tr>
+	<td>
+ <label for="haircuts">Choose a haircut:</label> </td>
+ <td>
+  <select id="haircuts" name="haircuts">
+  <option value="0">Apple-haircut</option>
+  <option value="1">Tarra-haircut</option>
+  <option value="2">Seppe-haircut</option>
+  <option value="3">Resg-haircut </option>
+</select>
+</td>
+
+</tr><td>	 <label for="dato">Date:</label> </td>
+	<td> <input id="dato" name="dato" type="date" > </td> </tr>
+
+
+
+	</table>
+  	<input type ="submit" value="Make a booking" >
+  </fieldset>
+
+</form>
+</div>
+</div>
+
+<div class="footer">
+
+</div>
+</body>
